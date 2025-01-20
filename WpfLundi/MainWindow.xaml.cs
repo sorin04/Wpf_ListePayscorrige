@@ -20,5 +20,11 @@ namespace WpfLundi
         {
             InitializeComponent();
         }
+
+        private void mouseRIghtButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            WindowAjouterUneVille ajouterUneVille = new WindowAjouterUneVille();
+            ajouterUneVille.ShowDialog();
+        }
     }
 }

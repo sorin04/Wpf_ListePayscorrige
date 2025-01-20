@@ -23,5 +23,6 @@ namespace WpfLundi
         {
             InitializeComponent();
         }
+
     }
 }
